@@ -7,9 +7,14 @@ URxvt*depth: 32
 URxvt*loginShell: true
 URxvt*saveLines: 5000
 URxvt*termName: rxvt-unicode
-URxvt.perl-ext-common: default,matcher
+URxvt.perl-ext-common: default,matcher,tabbed
 URxvt.url-launcher: chromium
 URxvt.matcher.button: 1
+
+URxvt.tabbed.tabbar-fg: 2
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg: 3
+URxvt.tabbed.tab-bg: 0
 
 URxvt.scrollBar: false 
 URxvt.scrollstyle: plain
