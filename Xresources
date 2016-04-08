@@ -2,13 +2,13 @@
 URxvt*buffered: true
 URxvt*cursorBlink: true
 URxvt*underlineColor: yellow
-URxvt*font:  xft:inconsolata:size=14:antialias=false
+URxvt*font:  xft:DejaVu Sans Mono:size=12:antialias=false
 URxvt*depth: 32
 URxvt*loginShell: true
 URxvt*saveLines: 5000
 URxvt*termName: rxvt-unicode
 URxvt.perl-ext-common: default,matcher,tabbed
-URxvt.url-launcher: chromium
+URxvt.url-launcher: chromium 
 URxvt.matcher.button: 1
 
 URxvt.tabbed.tabbar-fg: 2

@@ -23,6 +23,6 @@ set smartcase
 set mouse=a
 set number
 if has("gui_running")
-  set guifont=Inconsolata\ 13
+  set guifont=Dejavu\ Sans\ Mono\ 12 
 endif
 
