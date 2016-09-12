@@ -2,7 +2,13 @@
 URxvt*buffered: true
 URxvt*cursorBlink: true
 URxvt*underlineColor: yellow
-URxvt*font:  xft:DejaVu Sans Mono:size=12:antialias=false
+URxvt*font: xft:DejaVu Sans Mono:size=11:antialias=true
+URxvt*boldFont: xft:DejaVu Sans Mono:size=11:antialias=true
+
+!URxvt*imFont: xft:DejaVu Sans Mono:size=11
+!URxvt*italicFont:xft:DejaVu Sans Mono:size=11
+!URxvt*boldItalicFont: xft:DejaVu Sans Mono:size=11
+
 URxvt*depth: 32
 URxvt*loginShell: true
 URxvt*saveLines: 5000
