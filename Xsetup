@@ -1,0 +1,10 @@
+#!/bin/sh
+# Xsetup - run as root before the login dialog appears
+xrandr --setprovideroutputsource modesetting NVIDIA-0
+xrandr --auto  --output LVDS-1 --mode 1366x768 --primary --output VGA-1 --right-of LVDS-1
+xrandr --dpi 96
+setxkbmap "de"
+if [ -e /sbin/prime-offload ]; then
+    echo running NVIDIA Prime setup /sbin/prime-offload, you will need to manually run /sbin/prime-switch to shut down
+    /sbin/prime-offload
+fi
